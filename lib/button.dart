@@ -16,7 +16,9 @@ class _OutlinedButtonExampleState extends State<OutlinedButtonExample> {
   Widget build(BuildContext context) {
     final ButtonStyle style = OutlinedButton.styleFrom(
         textStyle: const TextStyle(fontSize: 17),
-        shape: const BeveledRectangleBorder(),
+        shape: const BeveledRectangleBorder(
+          borderRadius: BorderRadius.circular(12),  #primer cambio
+        ),
         side: const BorderSide(width: 0.1, color: Color.fromARGB(255, 197, 197, 197)),
         foregroundColor: Colors.white);
 
