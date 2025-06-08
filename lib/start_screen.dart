@@ -12,7 +12,7 @@ class StartScreen extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Image.asset(
-          'assets/images/quiz-logo.png',
+          'assets/images/quiztime.png',
           width: 250,
           color: const Color.fromARGB(200, 255, 255, 255),
         ),
